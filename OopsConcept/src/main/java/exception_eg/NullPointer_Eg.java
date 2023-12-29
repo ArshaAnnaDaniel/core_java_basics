@@ -5,8 +5,8 @@ public class NullPointer_Eg {
 	{
 		String s=null;
 		try {
-		int length=s.length();
-		System.out.println(length);
+		
+		System.out.println(s.length());
 		}
 		catch(NullPointerException e) {
 			e.printStackTrace();
